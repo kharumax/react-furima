@@ -118,7 +118,7 @@ const AuthForm = (props) => {
                 dispatch({type: START_FETCH});
                 const res =  await axios.post(`${baseURL}/auth/jwt/create/`,state.credentialsLog ,{
                     headers: { 'Content-Type': 'application/json'}});
-                props.cookies.set('jwt-token', res.data.access);
+                props.cookies.set('jwt-token', res.data.access,{expires: 1800});
                 setIsLogin(true);
                 console.log(`This is res : ${res.data}`);
                 res.data.access ?  window.location.href = "/" : window.location.href = "/login";
@@ -136,7 +136,7 @@ const AuthForm = (props) => {
 
                 const res =  await axios.post(`${baseURL}/auth/jwt/create/`,state.credentialsLog ,{
                     headers: { 'Content-Type': 'application/json'}});
-                props.cookies.set('jwt-token', res.data.access);
+                props.cookies.set('jwt-token', res.data.access,{expires: 1800});
                 setIsLogin(true);
                 res.data.access ?  window.location.href = "/" : window.location.href = "/login";
                 dispatch({type: FETCH_SUCCESS})

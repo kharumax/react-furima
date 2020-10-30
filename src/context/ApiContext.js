@@ -47,7 +47,7 @@ const ApiContextProvider = (props) => {
     const getProduct = async (id) => {
         try {
             const res = await axios.get(baseURL+`/products/${id}/`);
-            setProduct(res.data)
+            setProduct(res.data.data)
         } catch (e) {
             console.log(e)
         }

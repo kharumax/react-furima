@@ -8,6 +8,7 @@ import {CookiesProvider} from "react-cookie";
 import SignUp from "./components/SignUp";
 import Login from "./components/Login";
 import ApiContextProvider from "./context/ApiContext";
+import ProductDetail from "./components/ProductDetail";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
                           <Route exact path="/" component={App}/>
                           <Route exact path="/signup" component={SignUp}/>
                           <Route exact path="/login" component={Login}/>
+                          <Route exact path="/products/:id/" component={ProductDetail}/>
                       </Switch>
                   </ApiContextProvider>
               </CookiesProvider>

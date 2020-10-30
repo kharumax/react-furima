@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf8aa9e4-5344-4559-b1c6-967d8d77943b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/AuthForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/AuthForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/module/ProductsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/module/ProductsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/ApiContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ApiContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,11 +81,27 @@
       <option name="presentableId" value="Default" />
       <updated>1601113775984</updated>
       <workItem from="1601113778038" duration="5484000" />
-      <workItem from="1601177530621" duration="8700000" />
+      <workItem from="1601177530621" duration="9116000" />
+      <workItem from="1601736990904" duration="6087000" />
+      <workItem from="1601893060083" duration="5212000" />
+      <workItem from="1602147595588" duration="1035000" />
+      <workItem from="1602163693866" duration="2000" />
+      <workItem from="1602321436055" duration="453000" />
+      <workItem from="1602405802043" duration="245000" />
+      <workItem from="1602433627937" duration="629000" />
+      <workItem from="1602923063962" duration="4000" />
+      <workItem from="1602927628097" duration="1854000" />
+      <workItem from="1603879128448" duration="871000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1601899772024">
+      <screen x="-233" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="392" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-233.-1080.1920.1080@-233.-1080.1920.1080" timestamp="1601899772024" />
   </component>
 </project>

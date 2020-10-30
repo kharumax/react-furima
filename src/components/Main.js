@@ -1,5 +1,6 @@
 import React,{useContext} from "react";
 import {ApiContext} from "../context/ApiContext";
+import ProductsList from "./module/ProductsList";
 
 const Main = () => {
 
@@ -7,7 +8,7 @@ const Main = () => {
 
     return (
         <div>
-            HELLO WORLD
+            <ProductsList products={products}/>
         </div>
     )
 };

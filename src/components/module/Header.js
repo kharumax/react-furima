@@ -91,6 +91,7 @@ const Header = (props) => {
     const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
 
     const {isLogin,setIsLogin,user} = useContext(ApiContext);
+    console.log(user);
 
     const handleProfileMenuOpen = (event) => {
         setAnchorEl(event.currentTarget);
@@ -220,8 +221,10 @@ const Header = (props) => {
         <div className={classes.grow}>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography className={classes.title} variant="h6" noWrap>
-                        Material-UI
+                    <Typography className={classes.title} variant="h6" noWrap onClick={() => {
+                        window.location.href = "/"
+                    }} style={{cursor: "pointer"}}>
+                        DeeMa
                     </Typography>
                     <div className={classes.search}>
                         <div className={classes.searchIcon}>
